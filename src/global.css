@@ -42,7 +42,7 @@ body {
 
 .sticky-header {
   position: sticky;
-  top: 0;
+  top: -10px;
   padding: 10px;
   margin-left: -10px;
   margin-right: -10px;
@@ -72,4 +72,20 @@ body {
 .app-sidebar {
   box-shadow: 2px 0 5px rgba(20, 33, 42, 0.25);
   z-index: 10;
+  overflow: auto;
+}
+
+.ant-layout {
+  max-height: 100vh;
+}
+
+.ant-layout-content {
+  flex: 1;
+  display: flex;
+}
+
+.ant-layout-content > div {
+  height: auto !important;
+  width: auto !important;
+  flex: 1;
 }
