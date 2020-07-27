@@ -473,7 +473,7 @@ class Map extends React.Component<PageProps, {}> {
         y: ACTIVITY_LENGTH_CALC["no parking"]
       },
       {
-        x: "Pasenger Loading",
+        x: "Passenger Loading",
         y: ACTIVITY_LENGTH_CALC["passenger loading"]
       },
       {
